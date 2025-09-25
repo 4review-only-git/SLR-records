@@ -1,0 +1,2324 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Cheng Miao</Author>
+  <LastAuthor>Cheng Miao</LastAuthor>
+  <Created>2025-09-25T02:33:17Z</Created>
+  <LastSaved>2025-09-25T06:33:52Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Enabled dt:dt="string">true</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Enabled>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_SetDate dt:dt="string">2025-09-25T02:34:55Z</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_SetDate>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Method dt:dt="string">Standard</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Method>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Name dt:dt="string">OFFICIAL - INTERNAL</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Name>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_SiteId dt:dt="string">b6e377cf-9db3-46cb-91a2-fad9605bb15c</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_SiteId>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_ActionId dt:dt="string">24647a43-71e1-4f88-a169-0a54a2ca2d9c</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_ActionId>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_ContentBits dt:dt="string">0</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_ContentBits>
+  <MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Tag dt:dt="string">10, 3, 0, 1</MSIP_Label_0f488380-630a-4f55-a077-a19445e3f360_Tag>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11235</WindowHeight>
+  <WindowWidth>21600</WindowWidth>
+  <WindowTopX>8805</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="等线" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="等线" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="等线" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="等线" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="slr_data">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="319" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s18" ss:DefaultColumnWidth="36.75"
+   ss:DefaultRowHeight="14.25">
+   <Column ss:Index="2" ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="46.5"/>
+   <Column ss:StyleID="s18" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SN</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Author</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Title</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Database</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Reedy, Paul</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">15 - Crime types in the digital realm</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Yamazaki, Michele</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">15 - Reference and Workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lau, Henry</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A business process decision model for fresh-food supplier evaluation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Huang, Shi-Ming</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A business process gap detecting mechanism between information system process flow and internal control flow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kinyua, Juliet</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A data-independent acquisition workflow for qualitative screening of new psychoactive substances in biological samples</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ku, Chih-Hao</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A decision support system: Automated crime report analysis and classification for e-government</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">He, Longlong</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A decision-making model for knowledge collaboration and reuse through scientific workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Milliet, Quentin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A forensic science perspective on the role of images in crime investigation and reconstruction</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Harrel, Michelle</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A Powder‐free DNA Extraction Workflow for Skeletal Samples.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Greasley, Andrew</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A redesign of a road traffic accident reporting system using business process simulation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lee, Yung Hyeock</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A regional analysis of crime heterogeneity and small- and medium-sized enterprise (SME) location choices: recent evidence from South Korea</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hu, Yujie</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A spatio-temporal kernel density estimation framework for predictive crime hotspot mapping and evaluation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Murray, Kenneth</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A square go: tackling organised crime where it doesn't want to be tackled</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Brown, Cheryl M</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A step towards improving workflow practices for volume crime investigations: outcomes of a 90-day trial in South Australia.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Aziz, Maslina Abdul</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A Survey of Big Workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sieberth, Till</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A toolbox for the rapid prototyping of crime scene reconstructions in virtual reality</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lettieri, Nicola</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Agents Shaping Networks Shaping Agents: Integrating Social Network Analysis and Agent-Based Modeling in Computational Crime Research</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Zhu, Haojie</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An agent-based model for simulating urban crime with improved daily routines</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Scheible, Melissa K R</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An alternate workflow for preparing Precision ID Ancestry and Identity Panel libraries for Illumina sequencing.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Felix Enigo, V. S.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An Automated System for Crime Investigation Using Conventional and Machine Learning Approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Harush-Brosh, Yinon</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An efficient and eco-friendly workflow for dual fingermark processing and STR profiling</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bucknell, Alistair</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An investigation into the effect of surveillance drones on textile evidence at crime scenes.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Salmela, Hannu</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Analysing Business Losses Caused by Information Systems Risk: A Business Process Analysis Approach BT  - Enacting Research Methods in Information Systems: Volume 3</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kumar, Ravi</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Analysis and prediction of crime patterns using big data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Akinbowale, Oluwatoyin Esther</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Analysis of cyber-crime effects on the banking sector using the balanced score card: a survey of literature</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hołowko, Elwira</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Application of multi-resolution 3D techniques in crime scene documentation with bloodstain pattern analysis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">H. Ratcliffe, Jerry</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Assessing the success factors of organized crime groups</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Salzmann, Andrea Patrizia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Assessing time dependent changes in microbial composition of biological crime scene traces using microbial RNA markers</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hakim, Hashom Mohd</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Assessment of QIAGEN™ Investigator® 24plex GO! kit workflow for autosomal STR profiling of forensic reference samples</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Morgan, Robert</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Assessment of the potential investigative value of a decentralised rapid DNA workflow for reference DNA samples</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coyne, John</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Australian Case Study 1: The Australian Crime Commission (ACC)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">O’Malley, Troy</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Automated ‘lights-out’ searching of all recovered fingerprints: Review of the current workflow for latent fingerprint processing in Queensland, Australia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Benschop, Corina C G</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Automated DNA casework workflow: A retrospective study of the first implementation of FIDL at the Netherlands Forensic Institute</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Stangegaard, Michael</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Automated extraction of DNA from biological stains on fabric from crime cases. A comparison of a manual and three automated methods</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">AbdulRaheem, Muyideen</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Automated Fingerprint Biometric System for Crime Record Management</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">O'Malley, Troy</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Automated 'lights-out' searching of all recovered fingerprints: Review of the current workflow for latent fingerprint processing in Queensland, Australia.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Abraham, Joshua</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Automatically classifying crime scene images using machine learning methodologies</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bruenisholz, Eva</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Benchmarking forensic volume crime performance in Australia between 2011 and 2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kanin, David B</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Big Men, Corruption, and Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Minnaar, Anthony</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Border Security: An Essential but Effective Tool in Combatting Cross-Border Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rao, Lila</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Building ontology based knowledge maps to assist business process re-engineering</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">von Rosing, Mona</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Business Process Management Alignment</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Klein, Leander Luiz</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Business process management effectiveness and maturity through lean management practices: the Brazilian federal police experience</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Stavrou, Vasilis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Business Process Modeling for Insider Threat Monitoring and Handling</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Aliprandi, Carlo</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CAPER: Collaborative Information, Acquisition, Processing, Exploitation and Reporting for the Prevention of Organised Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dziurski, Patryk</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CEE Countries as a Business Process Outsourcing Destination BT  - Competitiveness of CEE Economies and Businesses: Multidisciplinary Perspectives on Challenges and Opportunities</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gilling, Daniel</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Celebrating a decade of the Crime and Disorder Act? A personal view</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sachowski, Jason</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 11 - Map Investigative Workflows</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Termanini, Rocky</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 12 - DNA Data and Social Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Houck, Max M</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 2.1 - Crime Scene Intelligence: Connecting People, Places, and Things</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Allen, Elizabeth</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 25 - Digital image workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Loreille, Odile</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 3 - Facilities design and workflow considerations for processing unidentified human skeletal remains</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cummins, Fred A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 4 - Next-Generation Business Process Management (BPM)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lancaster, Kurt</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chapter 6 - DSLR Postproduction Workflow and Techniques: Transcoding Footage, Syncing Audio, and Color Grading</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bovens, M</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chemometrics in forensic chemistry - Part I: Implications to the forensic workflow.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Zhao, J. Leon</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Collaborative Workflow Management for Interagency Crime Analysis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dhillon, Gurpreet</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2001</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Computer crimes: theorizing about the enemy within</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ekblom, Paul</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Conceptual Companions to 5Is: Defining Crime Prevention Activities, Institutional Contexts and Values</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Schröder, Thomas</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Corporate crime, the lawmaker's options for corporate criminal laws and Luhmann's concept of “useful illegality”</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lambert, Eric G.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Correlates of Formal and Informal Social Control on Crime Prevention: An Exploratory Study among University Students, Andhra Pradesh, India</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hope, Kempe Ronald</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Corruption Reduction as a Target of the Sustainable Development Goals: Applying Indicators and Policy Frameworks</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wang, Zenghui</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Could social media reflect acquisitive crime patterns in London?</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Whitehead, D</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Countering plant crime online: Cross-disciplinary collaboration in the FloraGuard study</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dowsley, Fiona</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime and Justice Data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Weber, Alexis R</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime clock – Analytical studies for approximating time since deposition of bloodstains</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kamble, Vijendra</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Data Analysis Using Association Rule Mining Technique</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Jain, Arushi</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Data Analysis Using Pig with Hadoop</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Anitha, N.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Factor Anaysis and Prediction Using Machine Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lugo-Ocando, Jairo</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime in the News</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mahmud, Sakib</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Rate Prediction Using Machine Learning and Data Mining</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sane, Renuka</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Victimisation Surveys in Indian Criminal Justice System Reform</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Yang, Dingqi</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CrimeTelescope: crime hotspot prediction based on urban and social media data fusion</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Casanovas, Pompeu</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cyber Warfare and Organised Crime. A Regulatory Model and Meta-Model for Open Source Intelligence (OSINT)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rawat, Romil</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dark Web—Onion Hidden Service Discovery and Crawling for Profiling Morphing, Unstructured Crime and Vulnerabilities Prediction</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Salzmann, Andrea Patrizia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Degradation of human mRNA transcripts over time as an indicator of the time since deposition (TsD) in biological crime scene traces</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Inostroza, Carolina</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dental Forensic Kit (DFK®) and Quick Extract™ FFPE DNA extraction kit, a new workflow for obtaining dental DNA for human genetic identity</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Panigrahi, Sunil Kumar</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Design of Mathematical Model for Analysis of Smart City and GIS-Based Crime Mapping</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chiu, Dickson K. W.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Designing Workflow Views with Flows for Large-Scale Business-to-Business Information Systems</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Amerini, Irene</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Detection of manipulations on printed images to address crime scene analysis: A case study</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gabryelczyk, Renata</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Developing Business Process Architecture at Poland’s Ministry of Finance. An Uneasy Journey Toward BPM</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bamberg, Malte</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Development and validation of an mRNA-based multiplex body fluid identification workflow and a rectal mucosa marker pilot study.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Yu, Sang-hun</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Development of a Dundee Ground Truth imaging protocol for recording indoor crime scenes to facilitate virtual reality reconstruction</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bulbul, Halil Ibrahim</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Digital forensics: An Analytical Crime Scene Procedure Model (ACSPM)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gupta, Alok</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Digital signature: use and modification to achieve success in next generational e-business processes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">van der Aalst, W. M. P.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2002</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Discovering Workflow Performance Models from Timed Logs</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gardner, Brett O</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Does image editing improve the quality of latent prints? An analysis of image-editing techniques in one crime laboratory</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tsochatzis, E D</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Drugs analysis and citizens safety. Workflows for chemical analysis and structural elucidation of new psychoactive substances in the EU</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Achim, Monica Violeta</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Economic and Financial Crime: Theoretical and Methodological Approaches</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Vas, Réka</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">E-CRIME System: A Knowledge Management Application in Public Administration</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ng, James H.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Enhanced Crime and Threat Intelligence Hunter with Named Entity Recognition and Sentiment Analysis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Levi, Michael</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Enhancing Business Crime Reduction: UK Directors' Responsibilities to Review the Impact of Crime on Business</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Volk, Paris</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Enhancing the sexual assault workflow: Development of a rapid male screening assay incorporating molecular non-microscopic sperm identification</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ballantyne, J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Enhancing the sexual assault workflow: Testing of next generation DNA assessment and Y-STR systems.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Thong, Zhonghui</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Evaluation of the RapidHIT™ 200 System: A comparative study of its performance with Maxwell® DNA IQ™/Identifiler® Plus/ABI 3500xL workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Smith, Natalya Victor</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Exploring Regional-Level Impact of Corruption and Crime on Multinational and Domestic Firms: The Evidence from Russia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Martin, Belinda</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Exploring tapelifts as a method for dual workflow STR amplification.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chen, Tongxin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Exploring the homogeneity of theft offenders in spatio-temporal crime hotspots</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cohen, Michael</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Extending the advanced forensic format to accommodate multiple data sources, logical evidence, arbitrary information and forensic workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Delavallade, Thomas</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Extracting Future Crime Indicators from Social Media</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Li, Zhe</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Facial expression-based analysis on emotion correlations, hotspots, and potential occurrence of urban crimes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">T Schäl</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1998</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Field Study 2: X_Workflow for Overdraft Management in a Bank</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Murray, Kenneth</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Filling black holes – using business process analysis in criminal intelligence</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald/CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sun, Yuqing</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Flexible Workflow Incorporated with RBAC</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ebert, L C</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Forensic 3D surface documentation at the Institute of Forensic Medicine in Zurich – Workflow and communication pipeline</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">De Alcaraz-Fossoul, Josep</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Forensic intelligence applied to questioned document analysis: A model and its application against organized crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Julian, Roberta</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Forensic science as “risky business”: identifying key risk factors in the forensic process from crime scene to court</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dawnay, Nick</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">From crime scene to courtroom: A review of the current bioanalytical evidence workflows used in rape and sexual assault investigations in the United Kingdom</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Shewale, J G</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">From sample collection to report generation – A new integrated workflow solution for paternity and relationship testing.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cybulka, Jolanta</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Fuel Crime Conceptualization through Specialization of Ontology for Investigation Management System</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wijayanto, Arie Wahyu</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Fuzzy geographically weighted clustering using artificial bee colony: An efficient geo-demographic analysis algorithm and applications to the analysis of crime behavior in population</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Das, Ankur</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Generation of overlapping clusters constructing suitable graph for crime report analysis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wolff, Markus</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Geospatial Crime Scene Investigation – From Hotspot Analysis to Interactive 3D Visualization</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wolff, Markus</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Geovisualization Approaches for Spatio-temporal Crime Scene Analysis – Towards 4D Crime Mapping</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">114</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lo, T. Wing</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ghost Brides and Crime Networks in Rural China</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Das, Asit Kumar</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Graph based ensemble classification for crime report prediction</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Das, Priyanka</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Group incremental adaptive clustering based on neural network and rough set theory for crime report categorization</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">117</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cherney, Adrian</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Harnessing the crime control capacities of third parties</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">118</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mukherjee, Anupam</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Heterogeneous Decomposition of Predictive Modeling Approach on Crime Dataset Using Machine Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Liu, C S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">High throughput sequencing data analysis workflow: mtDNA variant detection and identification of STR/Y-STR alleles and iso-alleles.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Prieto, Lourdes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">How to avoid driving DNA caseworkers crazy: CaseSolver, an expert system to investigate complex crime scenes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Boehmer, Wolfgang</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">How to Estimate a Technical VaR Using Conditional Probability, Attack Trees and a Crime Function</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Haugen, Susan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1999</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Identifying and controlling computer crime and employee fraud</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">123</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ezegbogu, Mark O</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Identifying the scene of a crime through pollen analysis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">124</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Timofeyev, Yuriy</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Insurers’ responses to cyber crime: Evidence from Russia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rossy, Quentin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Integrating forensic information in a crime intelligence database</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">126</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Taylor, Michael</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Integration of Geographic Profiling with Forensic Intelligence to Target Serial Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">127</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kaspi, Omer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Inter-laboratory workflow for forensic applications: Classification of car glass fragments</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Almansoori, Afrah</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Internet of Things Impact on the Future of Cyber Crime in 2050</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">129</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Corradini, Flavio</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Inter-organizational business process verification in public administration</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Roewer, Lutz</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Interpretation Guidelines of a Standard Y-chromosome STR 17-plex PCR-CE Assay for Crime Casework</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Boudier-Lemosquet, Axel</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Introducing protein deamidation: Landmark discoveries, societal outreach, and tentative priming workflow to address deamidation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Neumann, Martin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Introduction: the societal dimensions of organized crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Venter, Zander S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Is green space associated with reduced crime? A national-scale study from the Global South</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">134</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Shonhadji, Nanang</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Is it suitable for your local governments? A contingency theory-based analysis on the use of internal control in thwarting white-collar crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Del Bosco, Barbara</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Keeping the enemies close: The contribution of corporate social responsibility to reducing crime against the firm</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Müller, Wilmuth</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Knowledge Engineering and Ontology for Crime Investigation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">137</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Davies, Jon</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Labour exploitation as corporate crime and harm: outsourcing responsibility in food production and cleaning services supply chains</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">138</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Cunha, Rafael Rodrigues</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Laser scanner and drone photogrammetry: A statistical comparison between 3-dimensional models and its impacts on outdoor crime scene registration</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gardner, Brett O</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Latent print comparison and examiner conclusions: A field analysis of case processing in one crime laboratory.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gill, Martin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Learning from Offenders: Some Iatrogenic Effect of Crime Prevention Measures</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">141</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Esparza, Javier</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Learning Workflow Petri Nets</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">142</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Vander Beken, Tom</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Legitimate businesses and crime vulnerabilities</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spapens, Toine</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Macro Networks, Collectives, and Business Processes: An Integrated Approach to Organized Crime.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wolff, Markus</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mapping Crime Using Geovirtual Urban Environments</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Beasley, Jordan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Massively parallel sequencing and capillary electrophoresis of a novel panel of falcon STRs: Concordance with minisatellite DNA profiles from historical wildlife crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">146</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Su, Nanxi</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Measuring the associations between eye-level urban design quality and on-street crime density around New York subway entrances</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Baber, Chris</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mobile technology for crime scene examination</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Knorr, Konstantin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2001</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Modeling and Analyzing Separation of Duties in Workflow Environments</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Pérez, Francisco J.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Multimedia analysis platform for crime prevention and investigation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">HE, Zhanjun</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Multiscale analysis of the influence of street built environment on crime occurrence using street-view images</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">151</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spapens, Toine</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">North Brabant: A Brief History of a Hotbed of Organised Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Philips, Eline</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">NOW: A Workflow Language for Orchestration in Nomadic Networks</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">153</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Philips, E</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">NOW: Orchestrating services in a nomadic network using a dedicated workflow language</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Venhuis, Bastiaan J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Oncology drugs in the crosshairs of pharmaceutical crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Van de Bunt, Henk</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Organised Crime Policies in the Netherlands</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">156</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Van Duyne, Petrus C.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1996</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Organized crime, corruption and power</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">157</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dannecker, Gerhard</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Overcoming the current system of corporate criminal law – sanctioning corporate citizens. Crime prevention within the limits of the rule of law</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">158</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Win, Khin Nandar</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PCPD: A Parallel Crime Pattern Discovery System for Large-Scale Spatiotemporal Data Based on Fuzzy Clustering</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Edelman, G J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Photogrammetry using visible, infrared, hyperspectral and thermal imaging of crime scenes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kaspi, Omer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PIXE based, Machine-Learning (PIXEL) supported workflow for glass fragments classification</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">161</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ku, Tai-Yeon</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Platform Independent Workflow Mechanism for Bigdata Analytics</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">162</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rashed, Hamad S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Pocket-size near-IR spectrometers for rapid examination of contaminated textile fibres at the crime-scene</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Adderley, Richard William</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2001</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Police crime recording and investigation systems – A user’s view</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">164</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Adderley, Richard</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Predicting crime scene attendance</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">165</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Daggett, Matthew</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Predicting Team Performance Through Human Behavioral Sensing and Quantitative Workflow Instrumentation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">He, Jingyi</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Prediction of crime rate in urban neighborhoods based on machine learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Anitha, A.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Prediction of Crime Rate Using Data Clustering Technique</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Zhao, J L</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Process-driven collaboration support for intra-agency crime analysis.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">169</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Norén, Lina</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Purification of crime scene DNA extracts using centrifugal filter devices</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hugl, Ulrike</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Putting a Hat on a Hen? Learnings for Malicious Insider Threat Prevention from the Background of German White-Collar Crime Research</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">171</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Venkatasubramanian, Gautham</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Quantitative evaluation of footwear evidence: Initial workflow for an end‐to‐end system.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">172</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Naik, Archana</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rakshak—Prototype Application to Depict Crime Hotspot and Safest Path Between Locations</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">173</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lloyd, Clem</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1999</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Reporting corporate crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Taubenberger, Stefan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Resolving vulnerability identification errors using security requirements on business process models</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">175</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ekblom, Paul</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rewriting the Script: Cross-Disciplinary Exploration and Conceptual Consolidation of the Procedural Analysis of Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">176</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Beken, Tom Vander</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Risk, Uncertainty and the Assessment of Organised Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">177</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Beken, Tom Vander</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Risky business: A risk-based methodology to measure organized crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Barnawi, Ahmed</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Runtime self-monitoring approach of business process compliance in cloud environments</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">179</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Singh, Debabrata</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Safety and Crime Assistance System for a Fast Track Response on Mobile Devices in Bhubaneswar</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ippolito, André</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sammon Mapping-Based Gradient Boosted Trees for Tax Crime Prediction in the City of São Paulo</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Haelterman, Harald</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Scripting Crime Against Business</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">182</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Pathak, Rohit</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Secured Communication for Business Process Outsourcing Using Optimized Arithmetic Cryptography Protocol Based on Virtual Parties</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">183</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rodríguez, Alfonso</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Semi-formal transformation of secure business processes into analysis class and use case models: An MDA approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">184</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Yang, Shuhan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spatial Perspectives of Crime Patterns in Chicago Amid Covid-19</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">185</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Roth, Robert E</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spatiotemporal crime analysis in U.S. law enforcement agencies: Current practices and unmet needs</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">186</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gottschalk, Petter</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Stages of financial crime by business organizations</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">187</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lwin Tun, Zeya</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Supporting crime script analyses of scams with natural language processing</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">188</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Caballero-Casero, Noelia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Supramolecular solvent-based sample treatment workflow for determination of multi-class drugs of abuse in hair by liquid chromatography-tandem mass spectrometry</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">189</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Saravanan, P.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Survey on Crime Analysis and Prediction Using Data Mining and Machine Learning Techniques</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Anagnostou, Michelle</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Synthesizing knowledge on crime convergence and the illegal wildlife trade</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">191</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sebők, Miklos</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The (real) need for a human touch: testing a human–machine hybrid topic classification workflow on a New York Times corpus</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Villa, Chiara</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Application of Photogrammetry for Forensic 3D Recording of Crime Scenes, Evidence and People</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">193</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Salleh, Siti Aekbal</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Crime Ecology: Ambient Temperature vs. Spatial Setting of Crime (Burglary)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">194</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bamfield, Joshua A. N.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Crime of Theft: How Much Is Stolen?</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kleve, Pieter</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The definition of ICT Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">196</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Peacock, Martin</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Failure Of The New Discipline: Information Technology, Business Process, And The Control Of Tourism Operatives BT  - Information and Communication Technologies in Tourism 2000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">197</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Elgabry, Mariam</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The future of biotechnology crime: A parallel Delphi study with non-traditional experts</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">198</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dlodlo, Nomusa</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Internet of Things in Community Safety and Crime Prevention for South Africa</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">199</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mackenzie, Simon</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Market as Criminal and Criminals in the Market: Reducing Opportunities for Organised Crime in the International Antiquities Market</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Taniguchi, Travis A.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The mobilization of computerized crime mapping: a randomized controlled trial</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Yates, Simeon J.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Odyssey Project – Understanding and Implementing User Needs in the Context of Ballistic Crime Data Exchange</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">202</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lubis, Muharman</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The relationship of personal data protection towards internet addiction: Cyber crimes, pornography and reduced physical activity</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Middleton, David J.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The role of solicitors in facilitating ?Organized Crime?: Situational crime opportunities and their regulation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ayling, Julie</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Suppression of Organized Crime: New Approaches and Problems</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">van Dam, Annemieke</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The use of crime scene detection dogs to locate semen stains on different types of fabric.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wickenheiser, Ray A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The value of forensic DNA leads in preventing crime and eliminating the innocent</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">207</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tim, Stacy</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Virtual Lab Scientist: how two DNA crime laboratories use automation to increase sample processing output by more than 40%</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bennett, Richard</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tourism and logistics in an age of unprecedented crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">209</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wolff, Markus</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Towards 3D Tactical Intelligence Assessments for Crime Scene Analysis</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wolff, Markus</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Towards Geovisual Analysis of Crime Scenes – A 3D Crime Mapping Approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">211</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bradshaw, Robert</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Towards the integration of matrix assisted laser desorption ionisation mass spectrometry imaging into the current fingermark examination workflow.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">CJA/Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">212</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wagner, Johann</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Transnational Organised Crime (TOC)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">213</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Barclay, Iain</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Trustable service discovery for highly dynamic decentralized workflows</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">214</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chan, Fiona</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Understanding transnational bribery: a corporate crime framework</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Birks, Daniel</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Unsupervised identification of crime problems from police free-text data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">216</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Adderley, Richard</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Use of Data Mining Techniques to Model Crime Scene Investigator Performance</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">217</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Taylor, Duncan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using big data from probabilistic genotyping to solve crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">218</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Greasley, Andrew</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using business‐process simulation within a business‐process reengineering approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">219</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Melão, Nuno</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using component technology to develop a simulation library for business process modelling</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">220</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Alam, Md. Mahmudul</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using e-wallet for business process development: challenges and prospects in Malaysia</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">221</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kottner, Sören</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using the iPhone's LiDAR technology to capture 3D forensic data at crime and crash scenes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Science Direct</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">222</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Brocklesby, J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using the Viable Systems Model to examine multi-agency arrangements for combatting transnational organised crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Jacob, Joel Eliza</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Video Enhancement and Low-Resolution Facial Image Reconstruction for Crime Investigation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">224</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rinaldi, Vincenzo</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Virtual Reality as a Collaborative Tool for Digitalised Crime Scene Examination</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lugo-Ocando, Jairo</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Visualising Crime Statistics</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Murray, Kenneth Roderick</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Walking the walk: practical measures to undermine the business of organised crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">227</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tupman, Bill</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">What does the way crime was organised yesterday tell us about the way crime is organised today and will be tomorrow?</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Emerald</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">228</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Watney, Murdoch</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">When does Abuse of Social Media constitute a Crime? – A South African Legal Perspective within a Global Context</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">229</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Gottschalk, Petter</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">White-Collar Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Levi, Michael</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">White-Collar Crimes and the Fear of Crime: A Review</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">231</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Schulze Johann, Kristina</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Whole-genome sequencing of artificial single-nucleotide variants induced by DNA degradation in biological crime scene traces</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">232</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Adams, Nigel</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Why Do Banks Find Business Process Compliance so Challenging? An Australian Perspective</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">233</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chris BaberPaul SmithSandeep PanesarFan YangJames Cross</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Supporting Crime Scene Investigation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">234</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dale DzemydieneEgle Kazemikaitiene</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ontology-Based Decision Support System for Crime Investigation Processes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">235</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Murdoch Watney</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Legal Conflict between Security and Privacy in Addressing Crime and Terrorism on the Internet</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Springer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">236</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Khanmohammadi, K</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Business Process-Based Information Security Risk Assessment</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">237</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hatashima, T</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Evaluation of the Effectiveness of Risk Assessment and Security Fatigue Visualization Model for Internal E-Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">238</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mazurek, C</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Supporting High-Tech Crime Investigation through Dynamic Service Integration</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">239</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Dehghanniri, H</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Toward a More Structured Crime Scripting Method</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Khemprasit, J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">SOA-based framework for mobile crime analysis and monitoring</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">241</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rinjani, M A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Data service orchestration for law enforcement and open criminal justice data interoperability (National Crime Information Center, Indonesian National Police case studies)</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">242</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wang, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Parallel Crime Scene Analysis Based on ACP Approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">243</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rodrigues, C M d. O</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An Ontology for Property Crime Based on Events from UFO-B Foundational Ontology</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">244</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Vreede, G -J. de</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1995</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A group problem solving approach to business process redesign: combating organized crime in Amsterdam</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">245</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Muyanja, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Requirements engineering for the uganda police force crime records management system</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">246</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lin, Y -L.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using Machine Learning to Assist Crime Prevention</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">247</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Shermila, A Mary</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Data Analysis and Prediction of Perpetrator Identity Using Machine Learning Approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">248</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wang, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spatiotemporal Analysis and Prediction of Crime Events in Atlanta Using Deep Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">249</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wijayanto, A W</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Fighting cyber crime in email spamming: An evaluation of fuzzy clustering approach to classify spam messages</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Vatanasuk, N</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mobile Crime Incident Reporting System using UX dimensions guideline</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">251</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">alqahtani, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Analysis in Chicago City</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">252</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mishra, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Location Wise Opinion Mining of Real Time Twitter Data Using Hadoop to reduce Cyber Crimes</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">253</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Shukla, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Criminal Combat: Crime Analysis and Prediction Using Machine Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">254</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Alaverdian, M</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Who killed Lilly Kane? A case study in applying knowledge graphs to crime fiction</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wichiennit, N</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Design and development of application for crime scene notification system</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">256</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Jiří, H</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Multidimensional database for crime prevention</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">257</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mungekar, D</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Analysis using DBSCAN Algorithm</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">258</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Irvine, J M</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Remote Sensing to Analyze Wealth, Poverty, and Crime</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">259</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Amirkhanyan, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The framework for spatiotemporal sequential rule mining: Crime data case study</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">260</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sevcik, J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Scene Testimony in Virtual Reality Applicability Assessment</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">261</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Smit, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">QUIN: Providing Integrated Analysis Support to Crime Investigators</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">262</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Mukherjee, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chicago Crime Data Analysis Using PIG in Hadoop</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">263</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Manoj, R</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A Strategy for Identification and Prevention of Crime using various Classifiers</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">264</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Memon, S A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Discretization of the Crime Rate from Numerical Into Categorical</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">265</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">H, A S S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Prediction and Prevention Analysis Using Machine Learning Algorithms for Detecting the Crime Data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">266</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Feng, M</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Big Data Analytics and Mining for Effective Visualization and Trends Forecasting of Crime Data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">267</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Neto, A J V</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Fog-Based Crime-Assistance in Smart IoT Transportation System</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">268</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Zhuang, Y</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Hot Spot Forecasting: A Recurrent Model with Spatial and Temporal Information</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">269</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Kshatri, S S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">An Empirical Analysis of Machine Learning Algorithms for Crime Prediction Using Stacked Generalization: An Ensemble Approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">270</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Esquivel, N</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spatio-Temporal Prediction of Baltimore Crime Events Using CLSTM Neural Networks</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">271</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chitrakar, P</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Social Media Image Retrieval Using Distilled Convolutional Neural Network for Suspicious e-Crime and Terrorist Account Detection</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">272</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Ku, C -H.</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">TASC - Crime report visualization for investigative analysis: A case study</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">273</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Khan, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Digital Forensics and Crime Investigation: Legal Issues in Prosecution at National Level</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">274</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Zancajo-Blázquez, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Segmentation of Indoor Mapping Point Clouds Applied to Crime Scenes Reconstruction</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">275</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tayebi, M A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Organized Crime Structures in Co-offending Networks</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">276</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Nikhila, M S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Text Imbalance Handling and Classification for Cross- platform Cyber-crime Detection using Deep Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">277</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lourenço, V</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Towards Safer (Smart) Cities: Discovering Urban Crime Patterns Using Logic-based Relational Machine Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">278</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Aggarwal, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">E-Crime Investigative Technologies</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">279</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Norouzi, Y</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Spatial, Temporal, and Semantic Crime Analysis Using Information Extraction From Online News</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">280</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Yu, X</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">FIGAT: Accurately Predict Individual Crime Risks with Multi-information Fusion</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">281</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tajuddin, T</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Crime Suspect Profiling (CSP) for Forensic Investigation on Smartphone</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">282</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Valle, J M do</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Big Data Platform for Analysing Crime Evidences</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">283</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Xu, W</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">FIGAT: Accurately Classify Individual Crime Risks with Multi-information Fusion</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">284</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Buenafe, K Q</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Preliminary study of information sharing technology adoption by crime analysts</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">285</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wahrstätter, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Improving Cryptocurrency Crime Detection: CoinJoin Community Detection Approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">286</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Sarno, R</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Business process anomaly detection using ontology-based process modelling and Multi-Level Class Association Rule Learning</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">287</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rahmawati, D</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Fraud detection on event log of bank financial credit business process using Hidden Markov Model algorithm</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">288</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rahmawati, D</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Scalable attack analysis of business process based on decision mining classification</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">289</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Hung, Yi-Hsuan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Constructing auditing rules from ERP system: a business process flow approach</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">290</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Patil, S</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Know Your Customer (KYC) as a service for Business Process Management (BPM) using Cloud Computing</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">291</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Elgammal, A</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lifecycle Business Process Compliance Management: A Semantically-Enabled Framework</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">292</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Liu, X</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Research on Constraints in Anti-Money Laundering (AML) Business Process in China Based on Theory of Constraints</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">293</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Wolter, C</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Collaborative Workflow Management for eGovernment</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">294</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Muhsin, Z J</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">A distributed workflow management system utilizing computational intelligence for decision support</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">295</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Singh, B</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The performance optimization of Video surveillance systems are based on a workflow monitoring model in commercial organizational networks</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">296</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Loo, Y L</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Workflow analysis for self-adaptive agent-based simulation model</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">297</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Samant, P</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2023</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">3-D Protoacoustic Imaging Through a Planar Ultrasound Array: A Simulation Workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">298</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Aye, T T</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Layman Analytics System: A Cloud-Enabled System for Data Analytics Workflow Recommendation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">299</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Braekt, R I de</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Increasing digital investigator availability through efficient workflow management and automation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bhattacharjee, K</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">PRIVEE: A Visual Analytic Workflow for Proactive Privacy Risk Inspection of Open Data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Plohmann, D</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Patterns of a cooperative malware analysis workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">302</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">McDermott, Patrick</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Workflow Modeling: Tools for Process Improvement and Applications, Second Edition</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Schael, Thomas</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1993</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Workflow Management Systems for Financial Services</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">304</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Lubis, Muharman</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2021</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">User Experience Design in E-Consultation on General Legal Criminals: The Utilization of Alternative Design</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">305</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">de Vreede, Gert-Jan</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1995</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Facilitating User Involvement in Information System Design and Development with GSS: The Organized Crime Case</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">306</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Belesiotis, Alexandros</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Analyzing and Predicting Spatial Crime Distribution Using Crowdsourced and Open Data</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">307</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Bitan, Dor</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Using Zero-Knowledge to Reconcile Law Enforcement Secrecy and Fair Trial Rights in Criminal Cases</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">308</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Coscia, Michele</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Knowing Where and How Criminal Organizations Operate Using Web Content</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">309</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Poelman, Ronald</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">As If Being There: Mediated Reality for Crime Scene Investigation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">310</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Jensen, Kasper L</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Toward an MPolicing Solution for Namibia: Leveraging Emerging Mobile Platforms and Crime Mapping</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">311</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Capodieci, Antonio</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Business Process Awareness to Support GDPR Compliance</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">312</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Awad, Ahmed</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Runtime Detection of Business Process Compliance Violations: An Approach Based on Anti Patterns</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">313</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Tavares, Gabriel Marques</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Anomaly Detection in Business Process Based on Data Stream Mining</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">314</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Balan, Eran</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">BP-Ex: A Uniform Query Engine for Business Process Execution Traces</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">315</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Rime, Jemily</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">How Do You Pod? A Study Revealing the Archetypal Podcast Production Workflow</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">316</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Thomer, Andrea K</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">The Craft and Coordination of Data Curation: Complicating Workflow Views of Data Science</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">317</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Fogliato, Riccardo</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2022</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Who Goes First? Influences of Human-AI Workflow on Decision Making in Clinical Imaging</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">318</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Alhuzali, Abeer</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Chainsaw: Chained Automated Workflow-Based Exploit Generation</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">ACM</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <TopRowVisible>303</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
